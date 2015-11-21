@@ -44,5 +44,17 @@
 
 			?>
 		</table>
+		<form action="dollaz.php" method="post">
+			<label for="name">Name:</label>
+				<input type="text" name="name">
+			<label for="type">Type:</label>
+				<input type="text" name="type">
+			<label for="denomination">Denomination:</label>
+				<input type="number" name="denomination">
+			<label for="country">Country:</label>
+				<input type="text" name="country">
+			<label for="year">Year:</label>	
+				<input type="date" name="year">
+		</form>
 	</body>
 </html>
