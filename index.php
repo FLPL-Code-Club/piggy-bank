@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
+		<title>Piggy Bank</title>		
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="dollaz.js"></script>
 	</head>
 	<body>
+		<h1>Piggy Bank</h1>
 		<table>
 			<?php
 				$connection = mysqli_connect("localhost","piggybank","hitlerlovesnutella1","piggybank");
