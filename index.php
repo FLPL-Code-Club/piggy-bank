@@ -55,6 +55,7 @@
 				<input type="text" name="country">
 			<label for="year">Year:</label>	
 				<input type="date" name="year">
+				<input type="submit">
 		</form>
 	</body>
 </html>
