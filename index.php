@@ -38,7 +38,7 @@
 					echo "<form action='delete.php' method='post'>";
 					echo "<input type='hidden' name ='id' value='".$row["id"]."' />";
 					echo "<td> <input type='button' name='delete' value='delete' /></td>";
-					echo "</form>"
+					echo "</form>";
 					echo "</tr>";
 				}
 
