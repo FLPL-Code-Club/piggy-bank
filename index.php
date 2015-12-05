@@ -35,6 +35,10 @@
 					echo "<td>".$row["denomination"]."</td>";
 					echo "<td>".$row["country"]."</td>";
 					echo "<td>".$row["year"]."</td>";
+					echo "<form action='delete.php' method='post'>";
+					echo "<input type='hidden' name ='id' value='".$row["id"]." />";
+					echo "<td> <input type='button' name='delete' value='delete' action='delete.php'/></td>";
+					echo "</form>"
 					echo "</tr>";
 				}
 
@@ -56,6 +60,7 @@
 			<label for="year">Year:</label>	
 				<input type="number" name="year">
 				<input type="submit">
+
 		</form>
 	</body>
 </html>
