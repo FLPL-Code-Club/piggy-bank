@@ -36,8 +36,8 @@
 					echo "<td>".$row["country"]."</td>";
 					echo "<td>".$row["year"]."</td>";
 					echo "<form action='delete.php' method='post'>";
-					echo "<input type='hidden' name ='id' value='".$row["id"]." />";
-					echo "<td> <input type='button' name='delete' value='delete' action='delete.php'/></td>";
+					echo "<input type='hidden' name ='id' value='".$row["id"]."' />";
+					echo "<td> <input type='button' name='delete' value='delete' /></td>";
 					echo "</form>"
 					echo "</tr>";
 				}
