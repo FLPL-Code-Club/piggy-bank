@@ -4,4 +4,9 @@ table {
 
 table, th, td {
     border: 1px solid black;
+    background-color: #f9d25b;
+}
+
+html{
+	background-color: #80bfe5;
 }
