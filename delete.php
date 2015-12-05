@@ -1,5 +1,5 @@
 <?php 
-$query="DELETE FROM piggybank.currency WERE id=".$_POST["id"];
+$query="DELETE FROM piggybank.currency WHERE id=".$_POST["id"];
 $connection = mysqli_connect("localhost","piggybank","hitlerlovesnutella1","piggybank");
 
 $result=mysqli_query($connection, $query);
